@@ -1,0 +1,200 @@
+[
+  {
+    "id": "tkt-001",
+    "createdAt": "2026-05-16T06:12:00Z",
+    "status": "active",
+    "classification": "medical",
+    "location": { "lat": 29.7604, "lng": -95.3698, "source": "gps" },
+    "reporter": { "channel": "smartphone", "contactHash": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2" },
+    "message": "Elderly neighbor cannot evacuate. Needs wheelchair-accessible transport. 2nd floor, water rising fast.",
+    "verifiedBy": ["mod-01"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-002",
+    "createdAt": "2026-05-16T06:18:00Z",
+    "status": "active",
+    "classification": "food_water",
+    "location": { "lat": 29.7490, "lng": -95.3677, "source": "sms_geocoded" },
+    "reporter": { "channel": "dumbphone", "contactHash": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3" },
+    "message": "Family of 5 stranded. No food or clean water for 18 hours. Baby needs formula.",
+    "verifiedBy": [],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-003",
+    "createdAt": "2026-05-16T06:25:00Z",
+    "status": "active",
+    "classification": "hazard",
+    "location": { "lat": 29.7532, "lng": -95.3621, "source": "gps" },
+    "reporter": { "channel": "smartphone", "contactHash": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4" },
+    "message": "Downed power line in standing water on Elm Street near the school. Do NOT enter that block.",
+    "verifiedBy": ["mod-01", "mod-02"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-004",
+    "createdAt": "2026-05-16T06:31:00Z",
+    "status": "pending",
+    "classification": "transportation",
+    "location": { "lat": 29.7615, "lng": -95.3750, "source": "sms_geocoded" },
+    "reporter": { "channel": "dumbphone", "contactHash": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5" },
+    "message": "Bridge on Westheimer flooded. My car is stuck. 3 adults, need boat or high-clearance vehicle.",
+    "verifiedBy": [],
+    "flaggedCount": 1
+  },
+  {
+    "id": "tkt-005",
+    "createdAt": "2026-05-16T06:44:00Z",
+    "status": "active",
+    "classification": "medical",
+    "location": { "lat": 29.7558, "lng": -95.3589, "source": "gps" },
+    "reporter": { "channel": "smartphone", "contactHash": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6" },
+    "message": "Dialysis patient missed yesterday's session. Critically needs transport to Memorial Hospital.",
+    "verifiedBy": ["mod-02"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-006",
+    "createdAt": "2026-05-16T07:02:00Z",
+    "status": "active",
+    "classification": "hazard",
+    "location": { "lat": 29.7480, "lng": -95.3710, "source": "landline_lookup" },
+    "reporter": { "channel": "landline", "contactHash": "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1" },
+    "message": "Gas smell coming from building next door. Water is about 3 feet deep on the street.",
+    "verifiedBy": [],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-007",
+    "createdAt": "2026-05-16T07:15:00Z",
+    "status": "active",
+    "classification": "food_water",
+    "location": { "lat": 29.7640, "lng": -95.3640, "source": "gps" },
+    "reporter": { "channel": "smartphone", "contactHash": "a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8" },
+    "message": "Community center on Oak Ave has ~30 people sheltering. Need water, blankets, and insulin supplies.",
+    "verifiedBy": ["mod-01"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-008",
+    "createdAt": "2026-05-16T07:28:00Z",
+    "status": "resolved",
+    "classification": "transportation",
+    "location": { "lat": 29.7570, "lng": -95.3780, "source": "sms_geocoded" },
+    "reporter": { "channel": "dumbphone", "contactHash": "b8c9d0e1f2a3b8c9d0e1f2a3b8c9d0e1f2a3b8c9d0e1f2a3b8c9d0e1f2a3b8c9" },
+    "message": "Stranded on roof of car near freeway underpass. Got rescued by fire department. Thank you!",
+    "verifiedBy": [],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-009",
+    "createdAt": "2026-05-16T07:40:00Z",
+    "status": "active",
+    "classification": "other",
+    "location": { "lat": 29.7510, "lng": -95.3650, "source": "gps" },
+    "reporter": { "channel": "smartphone", "contactHash": "c9d0e1f2a3b4c9d0e1f2a3b4c9d0e1f2a3b4c9d0e1f2a3b4c9d0e1f2a3b4c9d0" },
+    "message": "Lost our dog during evacuation — brown Labrador, answers to 'Biscuit'. Last seen near Maple Park.",
+    "verifiedBy": [],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-010",
+    "createdAt": "2026-05-16T07:55:00Z",
+    "status": "pending",
+    "classification": "hazard",
+    "location": { "lat": 29.7595, "lng": -95.3560, "source": "gps" },
+    "reporter": { "channel": "smartphone", "contactHash": "d0e1f2a3b4c5d0e1f2a3b4c5d0e1f2a3b4c5d0e1f2a3b4c5d0e1f2a3b4c5d0e1" },
+    "message": "Raw sewage visible mixing with floodwater on North Main. Biohazard risk for rescue workers.",
+    "verifiedBy": [],
+    "flaggedCount": 2
+  },
+  {
+    "id": "tkt-011",
+    "createdAt": "2026-05-16T08:10:00Z",
+    "status": "active",
+    "classification": "medical",
+    "location": { "lat": 29.7525, "lng": -95.3720, "source": "landline_lookup" },
+    "reporter": { "channel": "landline", "contactHash": "e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2" },
+    "message": "Woman in labor, midwife cannot reach us. Need emergency transport to St. Luke's immediately.",
+    "verifiedBy": ["mod-01", "mod-02"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-012",
+    "createdAt": "2026-05-16T08:22:00Z",
+    "status": "active",
+    "classification": "food_water",
+    "location": { "lat": 29.7468, "lng": -95.3598, "source": "sms_geocoded" },
+    "reporter": { "channel": "dumbphone", "contactHash": "f2a3b4c5d6e7f2a3b4c5d6e7f2a3b4c5d6e7f2a3b4c5d6e7f2a3b4c5d6e7f2a3" },
+    "message": "Apartment complex 400+ residents. Water pump failed. No tap water for 12 hours.",
+    "verifiedBy": ["mod-01"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-013",
+    "createdAt": "2026-05-16T08:35:00Z",
+    "status": "active",
+    "classification": "transportation",
+    "location": { "lat": 29.7650, "lng": -95.3680, "source": "gps" },
+    "reporter": { "channel": "smartphone", "contactHash": "a3b4c5d6e7f8a3b4c5d6e7f8a3b4c5d6e7f8a3b4c5d6e7f8a3b4c5d6e7f8a3b4" },
+    "message": "School bus with 22 students stranded on flooded road. All safe for now. Need immediate extraction.",
+    "verifiedBy": ["mod-02"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-014",
+    "createdAt": "2026-05-16T08:50:00Z",
+    "status": "pending",
+    "classification": "other",
+    "location": { "lat": 29.7540, "lng": -95.3630, "source": "sms_geocoded" },
+    "reporter": { "channel": "dumbphone", "contactHash": "b4c5d6e7f8a9b4c5d6e7f8a9b4c5d6e7f8a9b4c5d6e7f8a9b4c5d6e7f8a9b4c5" },
+    "message": "Pharmacy locked and flooded. People need prescription refills. Can anyone help coordinate?",
+    "verifiedBy": [],
+    "flaggedCount": 1
+  },
+  {
+    "id": "tkt-015",
+    "createdAt": "2026-05-16T09:05:00Z",
+    "status": "active",
+    "classification": "hazard",
+    "location": { "lat": 29.7500, "lng": -95.3760, "source": "gps" },
+    "reporter": { "channel": "smartphone", "contactHash": "c5d6e7f8a9b0c5d6e7f8a9b0c5d6e7f8a9b0c5d6e7f8a9b0c5d6e7f8a9b0c5d6" },
+    "message": "Structural crack visible in retaining wall on River Rd. Wall could collapse into flood channel.",
+    "verifiedBy": ["mod-01"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-016",
+    "createdAt": "2026-05-16T09:20:00Z",
+    "status": "resolved",
+    "classification": "food_water",
+    "location": { "lat": 29.7620, "lng": -95.3600, "source": "gps" },
+    "reporter": { "channel": "smartphone", "contactHash": "d6e7f8a9b0c1d6e7f8a9b0c1d6e7f8a9b0c1d6e7f8a9b0c1d6e7f8a9b0c1d6e7" },
+    "message": "Distribution point set up at First Baptist Church — water and MREs available. Volunteer coordination needed.",
+    "verifiedBy": ["mod-01", "mod-02"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-017",
+    "createdAt": "2026-05-16T09:38:00Z",
+    "status": "active",
+    "classification": "medical",
+    "location": { "lat": 29.7488, "lng": -95.3662, "source": "landline_lookup" },
+    "reporter": { "channel": "landline", "contactHash": "e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8" },
+    "message": "Oxygen concentrator patient. Power has been out 6 hours. Needs generator or hospital transfer.",
+    "verifiedBy": ["mod-02"],
+    "flaggedCount": 0
+  },
+  {
+    "id": "tkt-018",
+    "createdAt": "2026-05-16T09:52:00Z",
+    "status": "active",
+    "classification": "other",
+    "location": { "lat": 29.7575, "lng": -95.3700, "source": "sms_geocoded" },
+    "reporter": { "channel": "dumbphone", "contactHash": "f8a9b0c1d2e3f8a9b0c1d2e3f8a9b0c1d2e3f8a9b0c1d2e3f8a9b0c1d2e3f8a9" },
+    "message": "Nursing home on Cypress Creek has 85 residents. Staff overwhelmed. Need additional volunteers or evacuation buses.",
+    "verifiedBy": ["mod-01"],
+    "flaggedCount": 0
+  }
+]

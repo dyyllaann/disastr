@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Leaflet icon path fix when bundled with Vite */
+.leaflet-default-icon-path {
+  background-image: none;
+}
+
+/* Ensure the map container fills its parent */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  font-family: inherit;
+}
+
+/* Smooth focus rings everywhere */
+*:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}

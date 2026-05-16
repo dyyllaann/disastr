@@ -1,0 +1,110 @@
+{
+  "lastUpdated": "2026-05-01",
+  "sections": [
+    {
+      "id": "before-1",
+      "phase": "before",
+      "title": "Know Your Risk",
+      "body": "Understand whether your home or workplace is in a flood-prone area. Check FEMA flood maps and your local emergency management website for zone designations.",
+      "tips": [
+        "Look up your address on the FEMA Flood Map Service Center (msc.fema.gov).",
+        "Sign up for local emergency alerts (Wireless Emergency Alerts, CodeRED, or your county system).",
+        "Know the elevation of your property relative to nearby water bodies.",
+        "Identify the nearest high ground and multiple evacuation routes."
+      ]
+    },
+    {
+      "id": "before-2",
+      "phase": "before",
+      "title": "Prepare an Emergency Kit",
+      "body": "Assemble a go-bag that can sustain your household for at least 72 hours without outside support.",
+      "tips": [
+        "Water: 1 gallon per person per day for at least 3 days.",
+        "Non-perishable food for 3 days, plus a manual can opener.",
+        "First-aid kit, prescription medications, and copies of medical records.",
+        "Flashlights, extra batteries, and a battery-powered or hand-crank radio.",
+        "Copies of important documents in a waterproof container (IDs, insurance, deeds).",
+        "Cash in small bills — ATMs may be offline.",
+        "Phone charger and portable power bank."
+      ]
+    },
+    {
+      "id": "before-3",
+      "phase": "before",
+      "title": "Protect Your Property",
+      "body": "Take steps before flood season to reduce damage to your home and belongings.",
+      "tips": [
+        "Install check valves in plumbing to prevent floodwater backflow.",
+        "Elevate electrical panels, appliances, and valuables above the expected flood level.",
+        "Keep gutters and drains clear of debris.",
+        "Consider flood insurance — standard homeowner policies do NOT cover flood damage.",
+        "Photograph or video your possessions for insurance purposes and store the file off-site."
+      ]
+    },
+    {
+      "id": "during-1",
+      "phase": "during",
+      "title": "If a Flood Watch or Warning Is Issued",
+      "body": "A Watch means flooding is possible; a Warning means it is happening or imminent. Act immediately on a Warning.",
+      "tips": [
+        "Move immediately to higher ground — do not wait for official orders if you feel threatened.",
+        "Disconnect electrical appliances if safe to do so, but do not touch them while standing in water.",
+        "Avoid walking in moving water — just 6 inches can knock an adult down.",
+        "Never drive through flooded roads. 'Turn Around, Don't Drown.' 2 feet of water can carry away most vehicles.",
+        "If trapped in a building, go to the highest floor. Signal for help from a window, not the roof."
+      ]
+    },
+    {
+      "id": "during-2",
+      "phase": "during",
+      "title": "Evacuating Safely",
+      "body": "If authorities order or recommend evacuation, leave as early as possible.",
+      "tips": [
+        "Follow designated evacuation routes — shortcuts may be flooded.",
+        "Take your go-bag and important documents.",
+        "Let a family member or friend outside the area know your destination.",
+        "Bring pets — many emergency shelters have separate pet areas.",
+        "Lock your home and turn off utilities if instructed."
+      ]
+    },
+    {
+      "id": "after-1",
+      "phase": "after",
+      "title": "Returning Home Safely",
+      "body": "Re-enter only when authorities declare it safe. Floodwaters and damaged structures pose serious hazards.",
+      "tips": [
+        "Do not enter if structural damage is visible or water is still present inside.",
+        "Use a flashlight — do not use open flames; gas leaks are common after floods.",
+        "Have a licensed electrician inspect your home before restoring power.",
+        "Wear rubber boots and waterproof gloves — floodwater is often contaminated with sewage and chemicals.",
+        "Document all damage with photos and video before cleaning up, for insurance claims."
+      ]
+    },
+    {
+      "id": "after-2",
+      "phase": "after",
+      "title": "Cleaning Up and Health",
+      "body": "Floodwater carries bacteria, mold spores, and hazardous materials. Protect your health during cleanup.",
+      "tips": [
+        "Discard any food that may have come into contact with floodwater.",
+        "Boil water for drinking and cooking until authorities lift the boil-water advisory.",
+        "Remove wet materials within 24–48 hours to prevent mold growth.",
+        "Use N95 masks and eye protection when removing debris or mold.",
+        "Seek mental health support — flooding is traumatic; community resources are available."
+      ]
+    },
+    {
+      "id": "after-3",
+      "phase": "after",
+      "title": "Filing for Assistance",
+      "body": "Financial and logistical help is available from multiple sources after a declared disaster.",
+      "tips": [
+        "Register with FEMA at DisasterAssistance.gov or call 1-800-621-3362.",
+        "Contact your insurance agent immediately to begin the claims process.",
+        "Keep all receipts for emergency expenses — they may be reimbursable.",
+        "Check with local nonprofits (Red Cross, Salvation Army) for immediate needs.",
+        "Apply for Small Business Administration (SBA) low-interest disaster loans if eligible."
+      ]
+    }
+  ]
+}
