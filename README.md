@@ -1,5 +1,5 @@
 # Community Beacon App
-[**Website Link**](https://urban-lamp-9qjr69xg9qrc9xw-5173.app.github.dev/)
+[**Website Link**]([https://urban-lamp-9qjr69xg9qrc9xw-5173.app.github.dev/](https://urban-lamp-9qjr69xg9qrc9xw-5173.app.github.dev/))
 
 [**Code Link**](https://vscode.dev/editor/liveshare/A928943E1B388836E43A6F34093E0FEF08C8)
 ### *Disaster Response & Resilience Track -- Hackathon 2026*
