@@ -21,7 +21,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open http://localhost:5173
+Open https://urban-lamp-9qjr69xg9qrc9xw-5173.app.github.dev/
 
 ---
 
