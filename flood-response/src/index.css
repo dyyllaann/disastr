@@ -17,3 +17,12 @@
   outline: 2px solid #3b82f6;
   outline-offset: 2px;
 }
+
+/* 
+ * Clever trick to create a gorgeous dark topography map:
+ * We take the highly detailed 'Outdoors' tileset and invert it.
+ * The 180deg hue-rotate ensures that water stays blue and parks stay green!
+ */
+.dark-topo-tiles {
+  filter: invert(100%) hue-rotate(180deg) brightness(70%) contrast(85%) saturate(0%);
+}

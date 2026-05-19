@@ -1,13 +1,24 @@
 import { useState, useEffect } from "react";
 import type { GeoJSON } from "geojson";
 
+export interface ParsedNWSReport {
+  summary: string;
+  action_items: string[];
+  evacuation_routes: string[];
+  expected_peak_time: string | null;
+}
+
 export interface NWSAlert {
   id: string;
   event: string;
   severity: string;
+  urgency: string;
   headline: string;
+  description: string;
+  instruction: string;
   areaDesc: string;
   geometry: GeoJSON.Geometry | null;
+  ai_analysis: ParsedNWSReport | null;
 }
 
 export function useWeatherAlerts(area = "WA") {
@@ -20,25 +31,19 @@ export function useWeatherAlerts(area = "WA") {
     setLoading(true);
     setError(null);
 
-    fetch(`https://api.weather.gov/alerts/active?area=${area}`, {
-      headers: { Accept: "application/geo+json" },
+    // Fetch from our new FastAPI backend instead of directly from NWS
+    const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8001";
+
+    fetch(`${baseUrl}/api/weather-alerts?area=${area}`, {
+      headers: { Accept: "application/json" },
     })
       .then((res) => {
-        if (!res.ok) throw new Error(`NWS API responded with ${res.status}`);
+        if (!res.ok) throw new Error(`Backend API responded with ${res.status}`);
         return res.json();
       })
-      .then((data) => {
+      .then((data: NWSAlert[]) => {
         if (cancelled) return;
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const parsed: NWSAlert[] = (data.features ?? []).map((f: any) => ({
-          id: f.properties.id as string,
-          event: f.properties.event as string,
-          severity: f.properties.severity as string,
-          headline: (f.properties.headline ?? f.properties.event) as string,
-          areaDesc: f.properties.areaDesc as string,
-          geometry: f.geometry as GeoJSON.Geometry | null,
-        }));
-        setAlerts(parsed);
+        setAlerts(data);
         setLoading(false);
       })
       .catch((err: unknown) => {

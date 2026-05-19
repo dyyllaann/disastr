@@ -182,7 +182,8 @@ export default function ReportPage() {
 
         {submit.isError && (
           <p role="alert" className="text-sm text-red-600">
-            Failed to submit. Please try again.
+            Failed to submit:{" "}
+            {submit.error instanceof Error ? submit.error.message : "Unknown error"}
           </p>
         )}
 
